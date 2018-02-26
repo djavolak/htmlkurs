@@ -1,0 +1,59 @@
+body {
+	background-color: #BBBBBB;
+}
+
+#mainWrapper {
+	margin: 0 auto;
+	width: 800px;
+	background-color: #EEEEEE;
+}	
+
+header .logoWrapper:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+header .logoWrapper img {
+	width: 100px;
+	float: left;
+}
+
+header .tagline {
+	padding: 30px 0;
+	margin: 0 auto;
+	width: 200px;
+}
+
+header nav {
+	border-bottom: solid 1px black;
+}
+
+header nav ul {
+	display: table;
+	margin: 0 auto;
+	padding: 0;
+}
+
+header nav ul li{
+	display: inline;
+	padding: 0 4px;
+}
+
+#content:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#content .leftColumn {
+	width: 25%;
+}
+
+#content .rightColumn {
+	width: 75%;
+}
+
+#content .leftColumn, #content .rightColumn {
+	float: left;
+}
